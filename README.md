@@ -8,7 +8,6 @@ It allows create, retrieve, update and delete articles from a personal blog, pro
 
 ## 📌 **Features**
 ✅ **CRUD Operations** → Create, Read, Update, and Delete blog articles.  
-✅ **Filtering & Searching** → Retrieve articles by tags and publish date.  
 ✅ **RESTful Architecture** → Clean and scalable API design.  
 ✅ **MongoDB Database** → NoSQL database for flexible data storage.  
 ✅ **TypeScript Support** → Ensures type safety and maintainability.  
@@ -23,7 +22,6 @@ It allows create, retrieve, update and delete articles from a personal blog, pro
 - **MongoDB** (NoSQL Database)  
 - **Mongoose** (ODM for MongoDB)  
 - **Dotenv** (Environment variable management)  
-- **ESLint & Prettier** (Code formatting and linting)  
 - **Nodemon** (Hot-reloading for development)  
 
 ---
@@ -141,7 +139,6 @@ personal-blog-api/
 │   ├── controllers/  # Business logic for API requests
 │   ├── models/       # MongoDB Schemas
 │   ├── config/       # Configuration files (e.g., database.ts)
-│   ├── middleware/   # Custom middlewares (authentication, logging, etc.)
 │   ├── index.ts      # Main entry point
 │── .env              # Environment variables
 │── .gitignore        # Ignore unnecessary files
